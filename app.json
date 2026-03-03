@@ -1,0 +1,24 @@
+{
+  "name": "DeepFake Detection",
+  "description": "A Flask web application for detecting deepfake videos using machine learning",
+  "repository": "https://github.com/SyedImtiyaz-1/TrueVision",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["python", "flask", "machine-learning", "deepfake", "opencv"],
+  "env": {
+    "PYTHON_VERSION": {
+      "description": "Python version to use",
+      "value": "3.10.12"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+} 
